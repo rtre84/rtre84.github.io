@@ -3,7 +3,7 @@ layout: default
 ---
 <!--# Christopher Sexton's CV -->
 
-<span style="font-weight:bold;font-size:32px;">Hello, I'm Christopher.</span>
+<span style="font-weight:bold;font-size:32px;">Hello, I'm Anup.</span>
 
 I am a software engineer that has done a fair bit of graphic design, project management and system administration. I love to build stuff, learn quickly, want to do it right, and I care about the details. I enjoy wearing lots of hats and doing many different things, from subtle UI tweaks to scaling systems to handle millions of users.
 

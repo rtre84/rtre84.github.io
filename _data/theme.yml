@@ -3,12 +3,12 @@ highlight_color: '#3694d5'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: csexton
+  github: rtre84
   #bitbucket: csexton
   #hacker_news: csexton
   #stackexchange: 19839
   #stackoverflow: 19839
-  twitter: crsexton
+  twitter: thechronicler
   #facebook: csexton
   #tumblr: animalygifs
   #linkedin: philipjagielski
@@ -17,12 +17,12 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Christopher
-email: chris@codeography.com
-tagline: "Builder of Software"
+name: Anup
+email: anup.vasudevan.84@gmail.com
+tagline: "Data Engineer, Coder, Thing Doer, Person"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-19710897-1
+google_analytics_key:
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
