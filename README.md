@@ -1,11 +1,7 @@
-### Forked and Repurposed from https://github.com/csexton/csexton.github.com
-# Codeography
+#### Forked and Repurposed from https://github.com/csexton/csexton.github.com
+# rtre84.github.io
 
-This is the Jekyll source for codeography.com.
-
-# Birdhouse in your soul
-
-"I'm your only friend; I'm not your only friend, but I'm a little glowing friend, but really I'm not actually your friend; but I am"
+This is the Jekyll source for rtre84.github.io .
 
 #### To serve on local
 
