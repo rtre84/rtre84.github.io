@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!--# Christopher Sexton's CV -->
+<!--# Anup Vasudevan's CV -->
 
 <span style="font-weight:bold;font-size:32px;">Hello, I'm Anup.</span>
 
