@@ -172,7 +172,7 @@ San Francisco based startup revolving around bringing your memories to your hand
 
 ### Sr. Web Developer
 <span style="float:left;">Abu Dhabi Muay Thai & Capoeira Sports Club, Abu Dhabi, UAE</span>
-<span style="float:right;">Dec 2010 – Aug 2011</span>
+<span style="float:left;">Dec 2010 – Aug 2011</span>
 <p style="clear:both;">
 Respected Sports Club in the United Arab Emirates specializing in Muay Thai, Boxing, Kick Boxing, BJJ & MMA.
 </p>
@@ -230,4 +230,4 @@ Skyline College (affiliated to National American University), Sharjah, UAE
 
 ### Projects and Links
 
-[Link to github repos](https://www.google.com "Github")
+[Link to github repos](https://www.github.com/rtre84 "Github")
