@@ -218,14 +218,16 @@ Leading Supplier of Office and Stationery Products in the United Arab Emirates.
 ## Education
 
 Masters in Software Engineering (M.Sc. in SE), Dropped out for financial reasons
-International Technological University, San Jose, CA
+International Technological University, San Jose, CA, USA
 
 Master of Business Administration (MBA), August 2012
-HULT International Business School, San Francisco, CA
+Hult International Business School, San Francisco, CA, USA
 
 Bachelor of Science in Business Administration (B.Sc. in BA), May 2005
-Skyline College (affiliated to National American University), Sharjah, United Arab Emirates
+Skyline College (affiliated to National American University), Sharjah, UAE
 
 ## Other
 
 ### Projects and Links
+
+[Link to github repos](https://www.google.com "Github")
