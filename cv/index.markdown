@@ -26,10 +26,16 @@ Software Engineer / Developer Analyst crazy about making data backed decisions a
 Covet IT is a fast-growing global IT services and consulting company with a reputation for being a quality Information Technology Solutions and Services Provider. We provide software development, maintenance and project management services in addition to Outsourcing Services, IT Staffing and Consulting Solutions.
 </p>
 
+<img style="border:1px;" src="images/ThesysGroupInc_Logo.png" width="280" height="140" />
+### Sr. Full Stack Developer [Contractor]
+<span style="float:left;">Thesys CAT LLC., Boston, MA</span>
+<span style="float:right;">Jan 2018 – Present</span>
+<p style="clear:both;"></p>
+
 <img style="border:1px;" src="images/wellingtonmanagementLogo_280x140.gif" />
 ### Sr. Software Developer [Contractor]
 <span style="float:left;">Wellington Management, Boston, MA</span>
-<span style="float:right;">Jan 2017 – Present</span>
+<span style="float:right;">Jan 2017 – Dec 2017</span>
 <p style="clear:both;"></p>
 *	Build and maintain responsive web applications using front-end frameworks, AJAX, HTML5, CSS3, Web Services and other related technologies.
 *	Help build, analyze and maintain existing web services/service oriented architecture (Scala, Java, Node Js, Tomcat (Java))
@@ -143,7 +149,7 @@ Directv primarily offers satellite based television services to US customers in 
 
 ### Web Analytics Trainee
 <span style="float:left;">Zeno Inc., Fremont, CA</span>
-<span style="float:left;">Oct 2012 – Apr 2013</span>
+<span style="float:right;">Oct 2012 – Apr 2013</span>
 <p style="clear:both;">
 Premier professional services organization with infrastructure engineering, software development and project management being some of its horizontal specialities, while healthcare and retail ecommerce amongst others are some of its industry specific solutions.
 </p>
@@ -216,9 +222,6 @@ Leading Supplier of Office and Stationery Products in the United Arab Emirates.
 * Attended, represented and negotiated on behalf of Eagle Stationery Establishment at various meetings, exhibitions and seminars.
 
 ## Education
-
-Masters in Software Engineering (M.Sc. in SE), Dropped out for financial reasons
-International Technological University, San Jose, CA, USA
 
 Master of Business Administration (MBA), August 2012
 Hult International Business School, San Francisco, CA, USA
