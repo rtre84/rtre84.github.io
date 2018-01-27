@@ -1,8 +1,8 @@
 # General Jekyll Config
-url: http://www.codeography.com
+url: http://www.rtre84.github.com
 safe: true
 lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, package.json, node_modules]
 kramdown:
   input: GFM
   hard_wrap: false
