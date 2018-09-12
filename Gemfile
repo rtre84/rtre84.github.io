@@ -19,4 +19,6 @@ end
 
 group :development do
   gem "rake"
+  gem "ffi"
+  gem "nokogiri"
 end
