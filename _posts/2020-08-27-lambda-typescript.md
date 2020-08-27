@@ -12,23 +12,23 @@ repo of choice.
 
 --- 
 
-- Install AWS SAM cli tool. Instructions on how to do so for your OS can be found at https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html
+- Install AWS SAM cli tool. Instructions on how to do so for your OS can be found at [https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html)
 
-- Install Docker if not already available. Instructions on how to do so can be found at https://docs.docker.com/get-docker/
+- Install Docker if not already available. Instructions on how to do so can be found at [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
-- The working TypeScript Lambda starter can be found at https://github.com/rtre84/typescript-aws-sam
+- The working TypeScript Lambda starter can be found at [https://github.com/rtre84/typescript-aws-sam](https://github.com/rtre84/typescript-aws-sam)
 
 The starter has .idea folder which when opened in your favourite Jetbrains IDE, ends up automatically inheriting the configuration as well. Please thank the kind soul who decided to do this. 
  
 - Install AWS Toolkit for Webstorm. This should give you the SAM Lambda local debug option. 
 
-Instructions on installing the toolkit can be found at https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/setup-toolkit.html
+Instructions on installing the toolkit can be found at [https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/setup-toolkit.html](https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/setup-toolkit.html)
 
 If you notice, by default as of now (August 23rd, 2020) - a lambda handler written in TypeScript will not be picked up by default. Webstorm's debugger and the AWS toolkit need some pushing along to let us set breakpoints and debug ts files.
 
 The workaround is to have your handler exposed via a wrapper function. I'm not entirely sure why this works or why the Webstorm debugger needs it a certain way but it does work. 
 
-Once again the link working boilerplate, check out https://github.com/rtre84/typescript-aws-sam
+Once again the link working boilerplate, check out [https://github.com/rtre84/typescript-aws-sam](https://github.com/rtre84/typescript-aws-sam)
 
 Assuming your lambda handler is called handler, expose it at the bottom of the index.ts or app.ts file similar to what's below. 
 
@@ -36,7 +36,7 @@ Assuming your lambda handler is called handler, expose it at the bottom of the i
 export const lambdaHandler = (event, context) => wrapper(handler)(event, context, {});
 {% endhighlight %}
 
-Check the file at https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/app.ts for a working example. 
+Check the file at [https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/app.ts](https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/app.ts) for a working example. 
 
 {% highlight ruby %}
 import {
@@ -77,7 +77,7 @@ const middleware: (fn: Handler) => LambdaProxyHandler = (fn: Handler): LambdaPro
 export const wrapper: (fn: Handler) => LambdaProxyHandler = (fn: Handler): LambdaProxyHandler => httpFn(middleware(fn));
 {% endhighlight %}
 
-The wrapper function can be found at https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/mw/mw.ts
+The wrapper function can be found at [https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/mw/mw.ts](https://github.com/rtre84/typescript-aws-sam/blob/master/hello-world/mw/mw.ts)
 
 - Right click the directory that contains your TypeScript Lambda source code and choose ```Mark directory as```.
  In the submenu that follows, choose ```Resource Root```. This should solve most problems of the lambda handler not 
@@ -85,7 +85,7 @@ The wrapper function can be found at https://github.com/rtre84/typescript-aws-sa
 
 ---
  
-### The Debugger Configuration
+# The Debugger Configuration
 
 ![debug-config-image](/images/run_debug_configuration.png)
 
@@ -173,48 +173,10 @@ and debug away by clicking ![debug-button](/images/debug-button.png)
 
 ---
 
-### Appendix
-Another TypeScript Lambda Starter: https://github.com/mir4ef/aws-lambda-typescript-starter
+# Appendix
+Another TypeScript Lambda Starter:  
+[https://github.com/mir4ef/aws-lambda-typescript-starter](https://github.com/mir4ef/aws-lambda-typescript-starter)
 
 [Flickr Image Source](https://www.flickr.com/photos/pagedooley/25169160699/in/photolist-Em7wAx-aRVsKv-rcJuLr-AyUxTf-96RucU-qiUL-2jf67N4-69Yugv-2hYWb3T-2jy8Aza-pcGzVY-2j1Q9ps-rrEdsm-rac7Df-quYb1c-quL1zU-rpsCN5-rabb5o-rpsDas-quL1af-rpsD69-rpsCVu-2jpcf7x-2iZfWLL-2iX6zAk-2j25Jg2-2bzcLQ-2iZfWKZ-akhS9Y-8gSPsR-4qzfNu-2o3zry-4rURJR-51qgSf-2jvWpdz-2jycW34-9t9ex-Bux4oA-4HYU56-2jxXVpx-2jxEJ1Q-2jxFN3m-2jsK162-9uK6cj-9A6zhw-9uFKug-29nsiJJ-FVSBun-2jxEDUi-5nP2AJ)
 
-Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr
-meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird
-on it occupy trust fund. Umami whatever kitsch, locavore fingerstache Tumblr pork belly
-[keffiyeh](#). Chia Echo Park Pitchfork, Blue Bottle [hashtag](#) stumptown skateboard selvage
-mixtape. Echo Park retro butcher banjo cardigan, seitan flannel Brooklyn paleo fixie
-Truffaut. Forage mustache Thundercats next level disrupt. Bicycle rights forage tattooed
-chia, **wayfarers** swag raw denim hashtag biodiesel occupy gastropub!
-
 ---
-
-# Kerberos
-
-### Be subtle with it, man. You know what subtle means?
-
-Blog Post Sections:
-
-
-
-
-VHS post-ironic cred **bespoke** banjo. Yr wayfarers literally gentrify, flexitarian fap
-dreamcatcher plaid cornhole Intelligentsia paleo. Beard try-hard direct trade, shabby chic
-Helvetica `look ma, I can code`. Lo-fi American Apparel tattooed [Vice](#) tofu, yr vinyl.
-Williamsburg butcher hella mumblecore fixie mlkshk, cliche wolf keytar mixtape kitsch banh mi
-salvia. High Life Odd Future *chambray* kale chips hoodie, cray pop-up. Helvetica narwhal
-iPhone try-hard jean shorts.
-
-> This is a quote from someone famous about productivity
-
-
-Syntax highlighting with Solarized theme.
-
-{% highlight ruby %}
-class User < ActiveRecord::Base
-  attr_accessible :email, :name
-
-  ... tons of other crap ...
-
-end
-
-{% endhighlight %}
