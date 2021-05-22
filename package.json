@@ -17,7 +17,7 @@
     "hoek": "^4.2.1",
     "mixin-deep": "^ 2.0.1",
     "sshpk": "^1.13.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "cryptiles": "^4.1.2"
   },
   "repository": {
