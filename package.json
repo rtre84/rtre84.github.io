@@ -13,7 +13,7 @@
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "8.0.0",
     "gulp-clean-css": "^3.9.2",
-    "gulp-sass": "^2.1.0",
+    "gulp-sass": "^6.0.1",
     "hoek": "^4.2.1",
     "mixin-deep": "^ 2.0.1",
     "sshpk": "^1.13.2",
